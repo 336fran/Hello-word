@@ -1,11 +1,25 @@
-# Title 1: Markdown basics
-## Title 2
-## Title 3
+# Markdown basics
 
+## Items
 * Itme 1
 * Item 2
 * Item 3
 
-Commands
+## Add new file
 git init
-git remote add origin https://github.com/user/repo.git
+
+touch readme.md
+
+git status
+
+git commit -m "text"
+
+git remote add origin https://github.com/username/repo.git
+
+git remote -v
+
+git add readme.md
+
+git pull origin master
+
+git push origin master
